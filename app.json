@@ -1,7 +1,8 @@
 {
    "name": "Nitro Sniper Enhanced",
    "description": "A nitro sniper for discord.",
-   "repository": "https://github.com/giorgiobrux/nitro-sniper-enhanced",
+   "repository": "https://github.com/shqdyy/nitro-sniper-enhanced",
+   "stack": "heroku-20",
    "logo": "https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png",
    "env": {
       "mainToken": {
