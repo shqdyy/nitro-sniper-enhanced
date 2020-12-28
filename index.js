@@ -52,16 +52,16 @@ if (webhookUrl != null) {
     function send_webhook(res_type, guild, giver, tokenname, timetaken, code, msgurl) {
         const embed = new RichEmbed()
             .setTitle(`Sniped successfully!`)
-            .setColor('#1ce829')
+            .setColor('#7b00ac')
             .addField('Where', `${guild}`, true)
             .addField('Account used', `${tokenname}`, true)
             .addField('Giver', `${giver}`, true)
             .addField('Time taken', `${timetaken}`, true)
             .addField('Type of sub', `${res_type}`, true)
             .addField('Giftcode', `${code}`, true)
-            .addField('​',`[Click here for the message.](${msgurl})`,false);
+            .addField('@Target | Sniper Trio 1')
         webhookclient.send( '', {
-            username: 'Nitro Sniper',
+            username: 'Nitro Sniper | Trio 1',
             avatarURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0JCyNz1WwaTkXB3jcr0MlMLIwXAsHjhoIRw&usqp=CAU',
             embeds: [embed]
         }).catch(err => {
