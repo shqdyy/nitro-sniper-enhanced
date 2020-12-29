@@ -52,17 +52,17 @@ if (webhookUrl != null) {
     function send_webhook(res_type, guild, giver, tokenname, timetaken, code, msgurl) {
         const embed = new RichEmbed()
             .setTitle(`Sniped successfully!`)
-            .setColor('#91202a')
+            .setColor('#0013ff')
             .addField('Where', `${guild}`, true)
             .addField('Account used', `${tokenname}`, true)
             .addField('Giver', `${giver}`, true)
             .addField('Time taken', `${timetaken}`, true)
             .addField('Type of sub', `${res_type}`, true)
             .addField('Giftcode', `${code}`, true)
-            .addField('@Target | Sniper Trio 3')
+            .addField('​',`[Shqdy | Nitro Sniper.](${msgurl})`,false);
         webhookclient.send( '', {
             username: 'Nitro Sniper | Trio 3',
-            avatarURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0JCyNz1WwaTkXB3jcr0MlMLIwXAsHjhoIRw&usqp=CAU',
+            avatarURL: 'https://media.discordapp.net/attachments/793423188604354570/793425011834486815/external-content.duckduckgo.png',
             embeds: [embed]
         }).catch(err => {
             console.log(chalk`{magenta [Nitro Sniper]} {rgb(242,46,46) (ERROR)} {red Tried to send webhook embed but got error: ${err}.}`);
