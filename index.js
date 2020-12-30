@@ -59,7 +59,7 @@ if (webhookUrl != null) {
             .addField('Time taken', `${timetaken}`, true)
             .addField('Type of sub', `${res_type}`, true)
             .addField('Giftcode', `${code}`, true)
-            .addField('​',`[Shqdy | Nitro Sniper.](${msgurl})`,false);
+            .addField('​',`[- Shqdy - Nitro Sniper -](${msgurl})`,false);
         webhookclient.send( '', {
             username: 'Nitro Sniper | Trio 3',
             avatarURL: 'https://media.discordapp.net/attachments/793423188604354570/793425011834486815/external-content.duckduckgo.png',
