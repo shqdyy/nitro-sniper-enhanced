@@ -61,7 +61,7 @@ if (webhookUrl != null) {
             .addField('Giftcode', `${code}`, true)
             .addField('​',`[- Shqdy - Nitro Sniper -](${msgurl})`,false);
         webhookclient.send( '', {
-            username: 'Nitro Sniper | Trio 3',
+            username: 'Nitro Sniper v1.4',
             avatarURL: 'https://media.discordapp.net/attachments/793423188604354570/793425011834486815/external-content.duckduckgo.png',
             embeds: [embed]
         }).catch(err => {
