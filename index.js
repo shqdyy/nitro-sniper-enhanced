@@ -52,7 +52,7 @@ if (webhookUrl != null) {
     function send_webhook(res_type, guild, giver, tokenname, timetaken, code, msgurl) {
         const embed = new RichEmbed()
             .setTitle(`Sniped successfully!`)
-            .setColor('#0013ff')
+            .setColor('#4500c4')
             .addField('Where', `${guild}`, true)
             .addField('Account used', `${tokenname}`, true)
             .addField('Giver', `${giver}`, true)
